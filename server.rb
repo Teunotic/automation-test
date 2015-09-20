@@ -185,6 +185,18 @@ get '/basic_auth/' do
   erb :basic_auth
 end
 
+get '/about' do
+  erb :about
+end
+
+get '/contact-us' do
+  erb :contact_us
+end
+
+get '/portfolio' do
+  erb :portfolio
+end
+
 get '/status_codes' do
   erb :status_codes
 end
@@ -216,7 +228,7 @@ get '/login' do
 end
 
 post "/authenticate" do
-  username = 'tomsmith'
+  username = 'everjobs'
   password = 'SuperSecretPassword!'
 
   if username == params[:username]
