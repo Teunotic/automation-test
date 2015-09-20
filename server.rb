@@ -318,7 +318,7 @@ If this were a real message, you would likely see a link or some relevant text t
 
 If you want to test login, visit http://the-internet.herokuapp.com/login and use the following credentials:
 
-username: tomsmith
+username: everjobs
 password: SuperSecretPassword!",
     via:      'smtp',
     via_options: {
