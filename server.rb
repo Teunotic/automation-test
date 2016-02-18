@@ -228,7 +228,7 @@ get '/login' do
 end
 
 post "/authenticate" do
-  username = 'everjobs'
+  username = 'zalando-lounge'
   password = 'SuperSecretPassword!'
 
   if username == params[:username]
